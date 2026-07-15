@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+}
+
+.hero-section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px;
+}
+
+.hero-card{
+    background:white;
+    border-radius:25px;
+    padding:50px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.25);
+}
+
+.feature-card{
+    background:#f8f9fa;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    transition:.3s;
+    height:100%;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.feature-icon{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.btn{
+    border-radius:12px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.lead{
+    max-width:700px;
+    margin:auto;
+}
+
+h4{
+    font-weight:bold;
+}
+
+
+/* Navbar */
+
+.navbar{
+    padding:14px 0;
+}
+
+.navbar-brand{
+    letter-spacing:0.5px;
+}
+
+.nav-link{
+    font-weight:500;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    background:rgba(255,255,255,0.15);
+    color:white !important;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.navbar-brand i{
+    font-size:28px;
+}
+
+.custom-navbar{
+    background:#0f172a;
+}
+
+
+/* View */
+.table th{
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td{
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.table tbody tr:hover{
+    background-color:#f8f9fa;
+    transition:0.3s;
+}
+
+.card{
+    overflow:hidden;
+}
+
+.card-header{
+    padding:18px;
+}
